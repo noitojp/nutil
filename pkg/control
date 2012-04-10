@@ -1,0 +1,14 @@
+Source: nutil
+Priority: optional
+Maintainer: Nobutaka Ito <noitojp@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Section: utils
+Homepage: no url
+
+Package: nutil
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: util commands.
+
